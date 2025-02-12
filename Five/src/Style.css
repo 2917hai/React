@@ -1,0 +1,83 @@
+body
+{
+    background-color: azure;
+}
+h1
+{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+.mainbox
+{
+    height: 500px;
+    width: 100%;
+    background-color: rosybrown;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    gap: 50px;
+    
+}
+.mainbox h1
+{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.image
+{
+    height: 300px;
+    width: 100%;
+}
+img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.box1
+{
+    margin: 20px;
+    height: 450px;
+    width: 300px;
+    background-color: red;
+    border: 5px solid rgb(4, 245, 100);
+    border-radius: 20px;
+}
+.box2
+{
+    margin: 20px;
+    height: 450px;
+    width: 300px;
+    background-color: red;
+    border: 5px solid rgb(4, 245, 100);
+    border-radius: 20px;
+}
+.box3
+{
+    margin: 20px;
+    height: 450px;
+    width: 300px;
+    background-color: red;
+    border: 5px solid rgb(4, 245, 100);
+    border-radius: 20px;
+}
+.box4
+{
+    margin: 20px;
+    height: 450px;
+    width: 300px;
+    background-color: red;
+    border: 5px solid rgb(4, 245, 100);
+    border-radius: 20px;
+}
+.box5
+{
+    margin: 20px;
+    height: 450px;
+    width: 300px;
+    background-color: red;
+    border: 5px solid rgb(4, 245, 100);
+    border-radius: 20px;
+}
