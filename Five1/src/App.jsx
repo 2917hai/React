@@ -12,7 +12,7 @@ import img8 from "./images/back9.jpg";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-import { CDBFooter } from 'cdbreact';
+// import { CDBFooter } from 'cdbreact';
 function App() {
   return (
     <>
@@ -134,9 +134,6 @@ function App() {
       </Card.Body>
     </Card>
     </h1>
-   
-
-   
     </>
   )
 }
