@@ -4,6 +4,7 @@ import Layout from "./Layout";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import Nopage from "./pages/Nopage";
 const App=()=> {
 
   return (
@@ -16,6 +17,7 @@ const App=()=> {
      <Route path="contact" element={<Contact/>}/>
      <Route path="about" element={<About/>}/>
      <Route path="home" element={<Home/>}/>
+     <Route path="*" element={<Nopage/>}/>
     </Route>
     </Routes>
     </BrowserRouter>
