@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "empno": 180,
+      "name": "umesh",
+      "salary": 3222,
+      "designation": "doctor",
+      "fees": 322,
+      "id": "1b30"
+    },
+    {
+      "empno": 181,
+      "name": "umesh",
+      "salary": 3222,
+      "designation": "doctor",
+      "fees": 322,
+      "id": "1943"
+    },
+    {
+      "id": "2b1b",
+      "name": "Umesh kumar Yadav",
+      "empno": 182,
+      "salary": "5555",
+      "designation": "wewe",
+      "fees": "444"
+    },
+    {
+      "id": "6603",
+      "name": "Umesh kumar Yadav",
+      "empno": 183,
+      "salary": "5555",
+      "designation": "wewe",
+      "fees": "444"
+    },
+    {
+      "id": "480d",
+      "name": "University management system",
+      "empno": 184,
+      "salary": "32000",
+      "designation": "wewe",
+      "fees": "5"
+    }
+  ]
+}

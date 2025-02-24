@@ -1,0 +1,19 @@
+{
+   "students": [
+        {
+            "name":"Umesh",
+            "city":"bhopal",
+            "fees":40002
+        },
+        {
+            "name":"Kumar",
+            "city":"bhopal",
+            "fees":40001
+        },
+        {
+            "name":"yadav",
+            "city":"bhopal",
+            "fees":40003
+        }
+    ]
+}

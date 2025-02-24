@@ -1,37 +1,35 @@
-import Students from "./Studends";
-import Data from "./Data";
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
 
-const App=()=>
-{
-  const option=[<li>"Bhopal"</li>,
-    <li>"Sidhi"</li>,
-    <li>"Sidhi"</li>,
-    <li>"Sidhi"</li>
-  ];
-  const option1=[<ul>
-    <li>"bhopal"</li>
-    <li>"Sidhi"</li>
-    <li>"Rewa"</li>
-    <li>"Indore"</li>
-  </ul>]
+function App() {
+  const [count, setCount] = useState(0)
 
-  const list=option1.map((e)=><ol>
-    <li>{option}</li>
-  </ol>)
-  const result=Data.map((key)=>
-  <Students nm={key.name} ct={key.city} rl={key.roll} opt={list} />);
-  return(
+  return (
     <>
-    <h1>Hello! My Details</h1>
-     <tr>
-      <th>Name</th>
-      <th>City</th>
-      <th>Roll</th>
-      <th>City Option</th>
-     </tr>
-     {result}
- 
+      <div>
+        <a href="https://vite.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
+      <h1>Vite + React</h1>
+      <div className="card">
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.jsx</code> and save to test HMR
+        </p>
+      </div>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
     </>
   )
 }
-export default App;
+
+export default App

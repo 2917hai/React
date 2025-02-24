@@ -1,0 +1,68 @@
+{
+  "sdudents": [
+    {
+      "rollno": 180,
+      "name": "Umesh",
+      "course": "Btech",
+      "contact": "7803869841",
+      "city": "Bhopal",
+      "id": "6b35"
+    },
+    {
+      "rollno": 181,
+      "name": "Raja",
+      "course": "Btech",
+      "contact": "7803869841",
+      "city": "Rewa",
+      "id": "f5a2"
+    },
+    {
+      "rollno": 182,
+      "name": "Rahul",
+      "course": "Btech",
+      "contact": "7803869841",
+      "city": "Sidhi",
+      "id": "db4c"
+    },
+    {
+      "id": "5f62",
+      "rollno": "185",
+      "name": "Krishna",
+      "course": "Full stack developer",
+      "contact": "7803869841",
+      "city": "Sihawal"
+    },
+    {
+      "id": "8597",
+      "rollno": "185",
+      "name": "Krishna",
+      "course": "Full stack developer",
+      "contact": "7803869841",
+      "city": "Sihawal"
+    },
+    {
+      "id": "bd8e",
+      "rollno": "186",
+      "name": "Mira",
+      "course": "Full stack developer",
+      "contact": "7354285502",
+      "city": "Sidhi"
+    },
+    {
+      "id": "d55a",
+      "rollno": "190",
+      "name": "Umesh yadav",
+      "course": "Full stack developer",
+      "contact": "7803869841",
+      "city": "Bhopal"
+    },
+    {
+      "id": "e490",
+      "rollno": "100",
+      "name": "Kripa",
+      "course": "Bpharm",
+      "contact": "7223804898",
+      "city": "Bhopal"
+    }
+  ]
+}
