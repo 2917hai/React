@@ -1,14 +1,6 @@
 {
   "sdudents": [
     {
-      "rollno": 180,
-      "name": "Umesh",
-      "course": "Btech",
-      "contact": "7803869841",
-      "city": "Bhopal",
-      "id": "6b35"
-    },
-    {
       "rollno": 181,
       "name": "Raja",
       "course": "Btech",
@@ -63,6 +55,14 @@
       "course": "Bpharm",
       "contact": "7223804898",
       "city": "Bhopal"
+    },
+    {
+      "id": "8d19",
+      "rollno": "n",
+      "name": "Umesh kumar Yadav",
+      "course": "Full stack developer",
+      "contact": "7803869841",
+      "city": "Bhopal "
     }
   ]
 }

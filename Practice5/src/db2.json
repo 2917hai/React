@@ -1,0 +1,33 @@
+{
+    "students":[
+
+        {
+            "rollno":180,
+            "name":"Umesh",
+            "course":"Btech",
+            "contact":"7803869841",
+            "city":"Bhopal"
+        },
+        {
+            "rollno":181,
+            "name":"Raja",
+            "course":"Btech",
+            "contact":"7803869841",
+            "city":"Bhopal"
+        },
+        {
+            "rollno":182,
+            "name":"Krishna",
+            "course":"Btech",
+            "contact":"7803869841",
+            "city":"Bhopal"
+        },
+        {
+            "rollno":183,
+            "name":"Kripa",
+            "course":"Btech",
+            "contact":"7803869841",
+            "city":"Bhopal"
+        }
+    ]
+}
