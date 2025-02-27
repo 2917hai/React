@@ -7,6 +7,7 @@ import Inserrt from "./pages/Insert";
 import Display from "./pages/Display";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import EditData from "./pages/EditData";
 const App=()=>
 {
   return(
@@ -23,6 +24,7 @@ const App=()=>
         <Route path="display" element={<Display/>}/>
         <Route path="search" element={<Search/>}/>
         <Route path="update" element={<Update/>}/>
+        <Route path="editData/:id" element={<EditData/>}/>
         </Route>
       </Routes>
       </BrowserRouter>

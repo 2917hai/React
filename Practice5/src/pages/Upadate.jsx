@@ -2,9 +2,11 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import img1 from "../images/dlt.png";
 import img2 from "../images/edt.png";
+import { Navigate, useNavigate } from "react-router-dom";
 const Update=()=>
     {
         const [mydata, setMydata]=useState([]);
+        const navigate=useNavigate();
         const loadData=async()=>
         {
             let api="http://localhost:3000/students";
@@ -27,6 +29,12 @@ const Update=()=>
           loadData();
         }
 
+       const myEdit=(id)=>
+        {
+            Navigate(`/editData/${id}`);
+            
+        } 
+
         const ans=mydata.map((e)=>
         {
            return(
@@ -36,13 +44,21 @@ const Update=()=>
                 <td>{e.name}</td>
                 <td>{e.course}</td>
                 <td>{e.contact}</td>
-                <td>{e.city}</td>
+                <td>{e.city}</td> 
+                <a href="#">
                 <td>
                     <img src={img1} alt="" height="30px" width="40px" onClick={()=>{myDelete(e.id)}}  />
-                </td>
-                <td>
-                    <img src={img2} alt="" height="30px" width="40px" />
-                </td>
+                </td> 
+                </a>
+            
+             <td>
+                <a href="#" onClick={()=>{myEdit(e.id)}}>
+                <img src={img2} alt="" height="30px" width="40px"  />
+                </a>
+                   
+             </td>
+            
+               
             </tr>
             </>
            )

@@ -1,28 +1,36 @@
 {
   "students": [
     {
-      "rollno": 181,
-      "name": "Raja",
-      "course": "Btech",
-      "contact": "7803869841",
-      "city": "Bhopal",
-      "id": "b352"
+      "id": "9180",
+      "rollno": "124",
+      "name": "University management system",
+      "course": "Full stack developer",
+      "contact": "7223804898",
+      "city": "Sihawal"
     },
     {
-      "rollno": 182,
-      "name": "Krishna",
-      "course": "Btech",
-      "contact": "7803869841",
-      "city": "Bhopal",
-      "id": "809b"
+      "id": "65ac",
+      "rollno": "125",
+      "name": "University management system",
+      "course": "Full stack developer",
+      "contact": "7223804898",
+      "city": "Sihawal"
     },
     {
-      "rollno": 183,
-      "name": "Kripa",
-      "course": "Btech",
-      "contact": "7803869841",
-      "city": "Bhopal",
-      "id": "fa2d"
+      "id": "a8aa",
+      "rollno": "126",
+      "name": "University management system",
+      "course": "Full stack developer",
+      "contact": "7223804898",
+      "city": "Sihawal"
+    },
+    {
+      "id": "8754",
+      "rollno": "185",
+      "name": "University management system",
+      "course": "Bpharm",
+      "contact": "7223804898",
+      "city": "Bhopal "
     }
   ]
 }
