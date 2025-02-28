@@ -41,17 +41,50 @@
 //     </>
 //   )
 // }
+
+
+
+
+
 // export default  App;
-import { useState } from "react";
-import Component1 from "./Component1";
+// import { useState,createContext } from "react";
+// import Component1 from "./Component1";
+// const myContext=createContext();
+// const App=()=>
+// {
+//   const [user,setUser]=useState("Umesh");
+//   return(
+//     <>
+//     <h1>Wellcome to:{user}</h1>
+//     <myContext.Provider value={{user}}>
+//     <Component1 />
+//     </myContext.Provider>
+   
+//     </>
+//   )
+// }
+// export default App;
+// export {myContext};
+
+
+import Bhopal from "./pages/Bhopal";
+import { useState,createContext } from "react";
+const colorContext=createContext();
 const App=()=>
 {
-  const [user,setUser]=useState("Umesh");
+  const [color,setColor]=useState("red");
   return(
     <>
-    <h1>Wellcome to:{user}</h1>
-    <Component1 user={user}/>
+   
+   
+    <h1>Home Page {color}</h1>
+    <button onClick={()=>(setColor("green"))}>chanfge color</button>
+    <colorContext.Provider value={{color,setColor}}>
+    <Bhopal/>
+    </colorContext.Provider>
+  
     </>
   )
 }
 export default App;
+export {colorContext};

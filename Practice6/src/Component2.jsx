@@ -1,10 +1,13 @@
 import Component3 from "./Component3";
-const Component2=({user})=>
+import { useContext } from "react";
+import { myContext } from "./App";
+const Component2=()=>
     {
+        const {user}=useContext(myContext);
         return(
             <>
-            <h1>Components2</h1>
-            <Component3 user={user} />
+            <h1>Components2 {user}</h1>
+            <Component3  />
             </>
         )
     }

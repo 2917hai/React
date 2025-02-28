@@ -1,10 +1,10 @@
 import Component5 from "./Components5";
-const Component4=({user})=>
+const Component4=()=>
     {
         return(
             <>
             <h1>Components4</h1>
-            <Component5 user={user}/>
+            <Component5 />
             </>
         )
     }

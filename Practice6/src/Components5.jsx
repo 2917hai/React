@@ -1,5 +1,8 @@
-const Component5=({user})=>
+import { useContext } from "react";
+import { myContext } from "./App";
+const Component5=()=>
     {
+        const {user}=useContext(myContext);
         return(
             <>
             <h1>Components5</h1>
