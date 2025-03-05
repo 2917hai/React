@@ -9,9 +9,6 @@ return(
   {/* <Header></Header>
   <Data></Data>
   <Footer></Footer> */}
-
-
-  
   <Header/>
   <Data/>
   <Footer/>

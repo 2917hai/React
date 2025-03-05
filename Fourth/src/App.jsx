@@ -23,9 +23,9 @@ function App() {
 
 
 
-   {/* <Students/>
+   <Students/>
    <Data/>
-   <Cybrome/> */}
+   <Cybrome/>
 
 
 

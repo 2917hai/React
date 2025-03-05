@@ -19,6 +19,4 @@ const EmpData=
    "salary":56789
 }
 ]
-
-
 export default EmpData;

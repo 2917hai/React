@@ -41,13 +41,10 @@
 
 import EmpDesign from "./EmpDesign";
 import EmpData from "./EmpData";
-
+import CallbackFunction from "./CallbackFunction";
 const App=()=>{
     const ans=EmpData.map((key)=>
        <EmpDesign name={key.name} city={key.city} salary={key.salary} rollno={key.rollno}  />);
-
-
-
     return(
         <>
  <table border="1">
@@ -59,7 +56,7 @@ const App=()=>{
     </tr>
     {ans}
  </table>
-      
+ <CallbackFunction/>
         </>
     )
 }
