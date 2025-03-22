@@ -1,4 +1,7 @@
 import { useState,useMemo } from "react";
+import Second from "./Second";
+import Third from "./Third";
+import UseCallback from "./UseCallback";
 const App=()=>
 {
   const [count,setCount]=useState(0);
@@ -16,7 +19,22 @@ const App=()=>
       <h1>Additon:{count}</h1>
       <button onClick={()=>{setMysub(mysub-1)}}>Substraction</button>
       <h1>Substraction:{mysub}</h1>
+      <br /><hr />
+      <Second/>
+      <br /><br /><br /><hr />
+      <center>
+      <Third/>
+      </center>
+      <br /><br /><br /><hr />
+      <center>
+      <UseCallback/>
+      </center>
+     
     </div>
   )
 }
 export default App;
+
+
+
+
