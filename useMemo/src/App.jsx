@@ -2,6 +2,8 @@ import { useState,useMemo } from "react";
 import Second from "./Second";
 import Third from "./Third";
 import UseCallback from "./UseCallback";
+import UseRef from "./UseRef";
+import UseRef1 from "./UseRef1";
 const App=()=>
 {
   const [count,setCount]=useState(0);
@@ -28,6 +30,16 @@ const App=()=>
       <br /><br /><br /><hr />
       <center>
       <UseCallback/>
+      </center>
+
+      <br /><br /><br /><hr />
+      <center>
+      <UseRef/>
+      </center>
+
+      <br /><br /><br /><hr />
+      <center>
+      <UseRef1/>
       </center>
      
     </div>
