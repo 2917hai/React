@@ -1,0 +1,39 @@
+{
+  "students": [
+    {
+      "name": "Yadav",
+      "city": "Indore",
+      "course": "java",
+      "roll": 182,
+      "id": "a130"
+    },
+    {
+      "id": "8785",
+      "name": "Umesh kumar Yadav",
+      "city": "Bhopal",
+      "course": "Full stack developer",
+      "roll": "500"
+    },
+    {
+      "id": "7e59",
+      "name": "Umesh",
+      "city": "Sidhi",
+      "course": "Bpharm",
+      "roll": "800"
+    },
+    {
+      "id": "10b8",
+      "name": "Umesh",
+      "city": "Bhopal",
+      "course": "Bpharm",
+      "roll": "500"
+    },
+    {
+      "id": "f970",
+      "name": "Umesh",
+      "city": "Bhopal",
+      "course": "Bpharm",
+      "roll": "500"
+    }
+  ]
+}
