@@ -44,7 +44,7 @@ const ans=mydata.map((key)=>
          <h3> Price : {key.price}</h3>
         
         </Card.Text>
-        <Button variant="primary" onClick={()=>{dispatch(addtcart({id:key.id,name:key.name,category:key.category, price:key.price, image:key.image}))}}>Add to cart</Button>
+        <Button variant="primary" onClick={()=>{dispatch(addtcart({id:key.id,name:key.name,category:key.category, price:key.price, image:key.image,quant:1}))}}>Add to cart</Button>
       </Card.Body>
     </Card>
     
