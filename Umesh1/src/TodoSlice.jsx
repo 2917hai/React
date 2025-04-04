@@ -8,8 +8,10 @@ const TodoSlice=createSlice({
     {
         addTask:(state,action)=>
         {
-          state.task.push(action.payload);
-        }
+          //state.task.push(action.payload);
+          state.task=[...state.task,action.payload];
+        },
+     
         
     }
 })
