@@ -19,6 +19,14 @@ const App = () => {
 
   }
 
+  const addData=()=>
+  {
+    dispatch(addTask({id:Date.now() ,work:txt,status:"Incomplete"}))
+    setTxt("");
+    setBtn(true);
+    
+  }
+
   const EditDispatch=()=>
   {
     setBtn(true);
@@ -52,7 +60,7 @@ const App = () => {
   <center>
   <h1>  Wellcome to my todo crud App</h1>
   Enter Your task : <input type="text" value={txt} onChange={(e)=>{setTxt(e.target.value)}}/>
-  {btn ? <button onClick={()=>{dispatch(addTask({id:Date.now() ,work:txt,status:"Incomplete"}))}}> Add Task </button> :
+  {btn ? <button onClick={addData}> Add Task </button> :
    <button onClick={EditDispatch}>Edit Save..!</button>}
 
   

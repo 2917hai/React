@@ -6,6 +6,9 @@ import UseRef from "./UseRef";
 import UseRef1 from "./UseRef1";
 import UseRef2 from "./UseRef2";
 import UseReducer from "./UseReducer";
+import Practice1 from "./Practice1";
+import Practice2 from "./Practice2";
+
 const App=()=>
 {
   const [count,setCount]=useState(0);
@@ -55,6 +58,22 @@ const App=()=>
       <center>
       <UseReducer/>
       </center>
+
+
+
+      <br /><br /><br /><hr />
+      <center>
+      <Practice1/>
+      </center>
+
+
+
+      <br /><br /><br /><hr />
+      <center>
+      <Practice2/>
+      </center>
+
+    
      
     </div>
   )

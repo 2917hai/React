@@ -1,6 +1,8 @@
 import { useReducer } from "react";
 import Second from "./Second";
 import Third from "./Third";
+import Fourth from "./Fourth";
+import Fiveth from "./Five";
 const App=()=>
 {
   const Reducer=(state,action)=>
@@ -36,6 +38,8 @@ const App=()=>
         <br /><hr />
         <Second/>
         <Third/>
+        <Fourth/>
+        <Fiveth/>
        </>
     )
 }
