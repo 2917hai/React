@@ -2,17 +2,17 @@
 // const ExpensiceComponent=()=>
 //     //const ExpensiceComponent=memo(()=>
 // {
-//     const sum=()=>{
-//         console.log("calculating sum");
-//         let i=0;
-//         for( i=0;i<1000000000;i++)
-//         {
-//             i=i+1;
-//         }
-//         return i;
-//     }
-//     const total=sum();
-//     return <p>Sum:{total}</p>;
+    // const sum=()=>{
+    //     console.log("calculating sum");
+    //     let i=0;
+    //     for( i=0;i<1000000000;i++)
+    //     {
+    //         i=i+1;
+    //     }
+    //     return i;
+    // }
+    // const total=sum();
+    // return <p>Sum:{total}</p>;
 // }
 // // });
 // const Third=()=>
@@ -106,12 +106,12 @@ but useMemo will be work in both cases
 // // });
 // const Third=()=>
 // {
-    // mydata={name:"Umesh",age:24};
+//     mydata={name:"Umesh",age:24};
 //     const [count,setCount]=useState(0);
 //     return(
 //         <>
 //         <ExpensiceComponent data="Umesh"/>                                                will be work
-  //       <ExpensiceComponent data=mydata/>                                                 will not be work
+//         <ExpensiceComponent data=mydata/>                                                 will not be work
 //         <button onClick={()=>{setCount(count+1)}}>Increment</button>
 //         <h1>
 //             count is:{count}
