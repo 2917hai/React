@@ -1,42 +1,60 @@
 {
   "student": [
     {
-      "id ": 1,
-      "rollno": 121,
-      "name": "ankit",
-      "city": "bhopal",
-      "fees": 2000,
-      "id": "1ed9"
+      "name": "Guddu",
+      "city": "Bihar",
+      "course": "MCA",
+      "roll": "502",
+      "id": "b248"
     },
     {
-      "id ": 2,
-      "rollno": 122,
-      "name": "vikash",
-      "city": "indore",
-      "fees": 3000,
-      "id": "a924"
-    },
-    {
-      "id ": 3,
-      "rollno": 124,
-      "name": "umesh",
-      "city": "mp",
-      "fees": 8000,
-      "id": "1a3e"
-    },
-    {
-      "id": "e579",
-      "rollno": "n",
-      "name": "j",
-      "city": "j",
-      "fees": "j"
-    },
-    {
-      "id": "272a",
-      "rollno": "180",
-      "name": "Umesh",
+      "name": "Umesh kumar Yadav",
       "city": "Bhopal",
-      "fees": "888"
+      "course": "Full stack developer",
+      "roll": "500",
+      "id": "ada2"
+    },
+    {
+      "id": "dc8d",
+      "name": "Umesh Yadav",
+      "city": "Sihawal",
+      "course": "Bpharm",
+      "roll": "500"
+    },
+    {
+      "id": "10c3",
+      "name": "Krishna",
+      "city": "Indore",
+      "course": "Null",
+      "roll": "800"
+    },
+    {
+      "id": "8494",
+      "name": "adf",
+      "city": "adf",
+      "course": "adf",
+      "roll": "daf"
+    },
+    {
+      "id": "668f",
+      "name": "adf",
+      "city": "dfdf",
+      "course": "dfdf",
+      "roll": "fdf"
+    },
+    {
+      "id": "7666",
+      "name": "University management system",
+      "city": "NA (Amilia B.O)",
+      "course": "Btech",
+      "roll": "185"
+    },
+    {
+      "id": "759b",
+      "name": "Umesh Yadav",
+      "city": "Sihawal",
+      "course": "sdf",
+      "roll": "sssfs"
     }
   ]
 }

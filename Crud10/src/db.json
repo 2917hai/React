@@ -1,0 +1,39 @@
+{
+    "Students":[
+        {
+            "name":"Umesh",
+            "city":"Bhopal",
+            "course":"Bpharm",
+            "roll":"500"
+
+        },
+        {
+            "name":"Umesh",
+            "city":"Sidhi",
+            "course":"Bpharm",
+            "roll":"500"
+
+        },
+        {
+            "name":"Umesh",
+            "city":"Bhopal",
+            "course":"Bpharm",
+            "roll":"500"
+
+        },
+        {
+            "name":"Umesh",
+            "city":"Sidhi",
+            "course":"Bpharm",
+            "roll":"500"
+
+        },
+        {
+            "name":"Umesh",
+            "city":"Sidhi",
+            "course":"Bpharm",
+            "roll":"500"
+
+        }
+    ]
+}

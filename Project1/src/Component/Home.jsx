@@ -6,6 +6,7 @@ import img2 from "../Images/img2.webp"
 import img3 from "../Images/img3.webp"
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { addtcart } from '../CartSlice';
 
@@ -14,6 +15,7 @@ const Home=()=>
 {
 
   const dispatch=useDispatch();
+  const navigate=useNavigate();
 
 
   const [mydata,setMydata]=useState([]);
@@ -31,12 +33,20 @@ useEffect(()=>
   loaddata();
 },[]);
 
+const prodisplay=(id)=>
+{
+  navigate(`/product/${id}`);
+}
+
 const ans=mydata.map((key)=>
 {
   return(
     <>
      <Card style={{ width: '18rem' }}>
+      <a href="#" onClick={()=>{prodisplay(key.id)}}>
       <Card.Img variant="top" src={key.image} height={250} />
+      </a>
+    
       <Card.Body>
         <Card.Title>{key.name}</Card.Title>
         <Card.Text>

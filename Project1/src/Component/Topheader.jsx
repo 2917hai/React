@@ -5,13 +5,22 @@ import { IoMdLogOut } from "react-icons/io";
 import logo from "../Images/logo.svg";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 const Topheader=()=>
 {
 const navigate=useNavigate();
+const [search,setSearch]=useState("");
+
+
+
+const searchItem=(e)=>
+{
+    setSearch(e.target.value);
+   navigate(`/search/${search}`);
+}
 
 
     const product=useSelector(state=>state.mycart.cart);
-    console.log(product);
     const prolength=product.length;
     return(
         <>
@@ -19,12 +28,13 @@ const navigate=useNavigate();
           <img src={logo} alt="" width={150} height={40} style={{borderRadius:"20px", marginLeft:"20px" ,marginTop:"5px"}} />
 
           <span style={{display:"flex",gap:"20px",marginLeft:"70px"}}>
-          <input placeholder="Search for Products, Brand and More " type="text" style={{borderRadius:"20px",height:"40px" ,marginTop:"5px",width:"400px",marginLeft:"50px",padding:"10px"}}/> 
-          <FaSearch style={{color:"white",fontSize:"20px", fontWeight:"bolder",marginTop:"15px"}}/> 
+          <input value={search} onChange={searchItem} placeholder="Search for Products, Brand and More " type="text" style={{borderRadius:"20px",height:"40px" ,marginTop:"5px",width:"400px",marginLeft:"50px",padding:"10px"}} /> 
+
+          <FaSearch style={{color:"white",fontSize:"20px", fontWeight:"bolder",marginTop:"15px"}} /> 
           </span>
        
-         <span style={{display:"flex",gap:"40px" ,marginLeft:"350px"}}>
-            <a href="#">
+         <span style={{display:"flex",gap:"40px" ,marginLeft:"510px"}}>
+            <a href="/Successfull">
             <p style={{color:"white", fontWeight:"bold", marginTop:"15px"}} >Your Oreder</p>
             </a>
           

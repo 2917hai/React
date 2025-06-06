@@ -1,13 +1,23 @@
 
-
+import Button from 'react-bootstrap/Button';
 import { dataRemove } from '../CartSlice';
 import { quantInc } from '../CartSlice';
 import { quantDec } from '../CartSlice';
 import { useDispatch } from 'react-redux';
 import Table from 'react-bootstrap/Table';
 import { useSelector } from "react-redux";
+import { useNavigate } from 'react-router-dom';
 const Cartdata=()=>
 {
+  const navigate=useNavigate();
+
+  const orderplace=()=>
+  {
+   navigate("/OrderPlace");
+  }
+
+
+
   const dispatch=useDispatch();
     const prodata=useSelector(state=>state.mycart.cart);
     let netamount=0;
@@ -56,6 +66,8 @@ const Cartdata=()=>
         {ans}
         </tbody>
        </Table>
+
+       <Button style={{float:"right", margin:"50px"}} onClick={orderplace}>Place Order</Button>
         </>
     )
 }

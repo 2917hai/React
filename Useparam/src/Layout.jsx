@@ -5,10 +5,13 @@ const Layout=()=>
         return(
         <>
         <h1>Layout page </h1>
-       <Link to="home">Home</Link>
+        <div style={{display:"flex", gap:"300px"}}>
+        <Link to="hoome">Home</Link>
        <Link to="about">About</Link>
        <Link to="service">Service</Link>
        <Link to="join">Join</Link>
+        </div>
+     
        <hr/>
        <Outlet/>
        <hr/>

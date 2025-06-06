@@ -1,8 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { Button, message } from 'antd';
 const CartSlice=createSlice({
     name:"mycart",
     initialState:{
         cart:[],
+        myOrder:[]
     },
     reducers:{
         addtcart:(state,actions)=>{
@@ -15,6 +17,33 @@ const CartSlice=createSlice({
             {
                 state.cart.push(actions.payload);
             }
+        },
+        deleteOrder:(state)=>
+        {
+            state.myOrder=state.cart;
+            state.cart=[]
+        },
+        cancleOrder:(state,actions)=>
+        {
+            state.myOrder=state.myOrder.filter((key)=>{
+                if(key.id!=actions.payload)
+                {
+                    return true;
+                }
+                else
+                {   
+                   let a= confirm("are sure want to cancle this order ")
+                   if(a)
+                   {
+                    return false;
+                   }
+                   else
+                   {
+                    return true;
+                   }
+                    
+                }
+            })
         },
         quantInc:(state,actions)=>
         {
@@ -62,5 +91,5 @@ const CartSlice=createSlice({
             }
     }
 })
-export const {addtcart,quantInc,quantDec,dataRemove}=CartSlice.actions;
+export const {addtcart,quantInc,quantDec,dataRemove,deleteOrder,cancleOrder}=CartSlice.actions;
 export default CartSlice.reducer;
